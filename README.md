@@ -3,7 +3,7 @@ Network Data Receiver is a Java server-side networking utility that serves as a 
 
 ## Features
 
-- **Network Data Reception**: Network Data Receiver is a TCP server that listens for incoming data sent over a network connection.
+- **Network Data Reception**: Network Data Receiver is a UDP / TCP server that listens for incoming data sent over a network connection.
 
 - **Real-time Time Measurement**: It measures the time it takes to receive data in milliseconds, providing real-time feedback on data arrival performance.
 
