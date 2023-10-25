@@ -24,7 +24,7 @@ public class Main {
                     // System.out.write(buffer, 0, bytesRead);
                     receivedInfoCount++;
 
-                    // If all expected track info items have been received, calculate and print the time
+                    // If all expected data have been received, calculate and print the time
                     if (receivedInfoCount == expectedInfoCount) {
                         long elapsedTime = System.currentTimeMillis() - startTime;
                         System.out.println("Time to receive all data (ms): " + elapsedTime);
