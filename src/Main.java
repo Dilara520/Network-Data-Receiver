@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String IPAddress = "127.0.0.1"; // Choose an IPAddress for the Socket.IO server
         int port = 12345; // Choose a port for the Socket.IO server
-        int expectedInfoCount = 100; // Define the expected number of track info items
+        int expectedInfoCount = 100; // Define the expected number of data will be received 
 
         try (ServerSocket serverSocket = new ServerSocket(port, 0, InetAddress.getByName(IPAddress))) {
             System.out.println("Server is running and listening on " + IPAddress + ":" + port);
